@@ -5,7 +5,7 @@ const db = require('./db');
 console.log('DB:', db);
 
 const app = express();
-const PORT = 5000;
+const PORT = 8888;
 
 app.use(cors());
 app.use(bodyParser.json());
